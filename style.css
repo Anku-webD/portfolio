@@ -222,6 +222,16 @@ footer {
     }
 }
 
+@media (width <= 425px) {
+    .container::after {
+        display: none;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+}
+
 @keyframes appearFromLeft {
     0% {
         transform: translateX(-110%);
