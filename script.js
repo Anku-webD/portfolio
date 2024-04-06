@@ -22,12 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
             instance.destroy();
         }
     })
-    .type("Hellllllllooo")
+    .type("Hellllooo")
     .pause(1000)
     .delete(2)
     .pause(500)
     .move(-1)
-    .delete(6)
+    .delete(2)
     .pause(500)
     .move(null, { to: "END" })
     .type(".")
