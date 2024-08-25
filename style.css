@@ -190,6 +190,12 @@ main {
     font-weight: 500;
 }
 
+.projects p {
+    font-size: 1rem;
+
+    animation: appearFromTop 2s ease-out;
+}
+
 footer {
     align-self: flex-end;
 }
